@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="./main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação  de campos</title>
+</head>
+<body>
+    <div class="container">
+        <form  id="enviar">
+            <h1>Formulário de Validação</h1>
+            <input  type="number" id="campo-a"  required placeholder="digite um numero (campo A)"/>
+            <input  type="number" id="campo-b" required placeholder="digite um numero (campo B)"/>
+            <button type="submit" id='submit' >Enviar</button>
+        </form>
+        <p class="validation"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
