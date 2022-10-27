@@ -35,17 +35,6 @@ button:hover{
     background-color: rgb(130, 130, 253);
 }
 
-
-let campo-a = document.getElementById("campo-a")
-let campo-b = document.getElementById("campo-b")
-
-function(campo-a, campo-b) {
-    let button = campo-a < campo-b
-}
-if (validaCampo(campoA, campoB)) {
-    alert('jjjj');
-} 
-
 .validation {
     background-color:rgb(19, 19, 190) ;
     padding: 16PX;
