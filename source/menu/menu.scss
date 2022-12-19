@@ -1,0 +1,38 @@
+@use '../config/cores';
+
+
+
+header {
+    background-color:cores.$corHeader;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+}
+
+
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+    
+    li {
+        list-style: none;
+    }
+
+    li a {
+        color: cores.$corTextoPrincipal;
+        text-decoration: none;
+    }
+    
+}

@@ -1,0 +1,21 @@
+@use 'config/reset';
+@use 'config/cores';
+@use 'menu/menu';
+@use 'secoes/produtos';
+@use 'config/responsivo';
+
+
+
+body {
+    background-color: cores.$corBody;
+}
+
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
